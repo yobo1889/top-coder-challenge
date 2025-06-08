@@ -1,0 +1,7 @@
+My solution utilizes gradient boost regressor to estimate a decison tree to output the expected reimbursement
+amount. Please do inspect the 'Gradient_Boostin_Regression_Estimator.py' for further detail. The files grb esitmator
+ and feature names contain the neccessary hyper parameter to estimate the output.
+To understnad the business logic / bugs of the reimbursement calculation all you need to do is analyze the file,
+gbr_estimators. The non-linearity of the problem lends it's self to a machine learning model that balances accuracy
+and interpretability hence GBR which is mix of both. Also use a virtual environemtn to access dependecies like
+numpy and panada. Caution: since the model is ML, it'll take a while to compute on a CPU!!

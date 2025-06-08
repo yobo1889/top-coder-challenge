@@ -1,0 +1,8 @@
+trip_duration_days
+miles_traveled
+total_receipts_amount
+receipts_per_day
+miles_per_day
+miles_receipts_ratio
+interaction_1
+interaction_2
